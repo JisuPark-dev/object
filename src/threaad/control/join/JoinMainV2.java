@@ -15,7 +15,7 @@ public class JoinMainV2 {
 //        sleep(3000);
         thread1.join();
         thread2.join();
-        log(sumTask1.result + sumTask1.result);
+        log(sumTask1.result + sumTask2.result);
         log("end");
     }
 
